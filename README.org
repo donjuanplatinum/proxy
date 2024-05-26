@@ -1,0 +1,14 @@
+* Proxy
+This is a Simple Proxy write in Rust.
+
+ ~Warn~ It is unstabe now
+** Run
+#+begin_src shell
+  cargo build --release
+#+end_src
+** Use
+#+begin_src shell
+  cargo run listen_address proxy_address
+  eg:
+  cargo run 0.0.0.0:3000 192.168.101.42:80
+#+end_src
